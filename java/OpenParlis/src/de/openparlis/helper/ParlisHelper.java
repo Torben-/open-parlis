@@ -1,9 +1,9 @@
-package helper;
+package de.openparlis.helper;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import data.DocumentId;
+import de.openparlis.data.DocumentId;
 
 public class ParlisHelper {
 	

@@ -1,4 +1,4 @@
-package helper;
+package de.openparlis.helper;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.regex.*;
 
-import data.DocumentRevision;
+import de.openparlis.data.DocumentRevision;
 
 public class HtmlParser {
 

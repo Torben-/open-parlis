@@ -1,14 +1,15 @@
-import helper.HtmlDownloader;
-import helper.HtmlParser;
-import helper.ParlisHelper;
+package de.openparlis;
 
 import java.net.URL;
 
-import data.Database;
-import data.Document;
-import data.DocumentId;
-import data.DocumentRevision;
-import data.DocumentType;
+import de.openparlis.data.Database;
+import de.openparlis.data.Document;
+import de.openparlis.data.DocumentId;
+import de.openparlis.data.DocumentRevision;
+import de.openparlis.data.DocumentType;
+import de.openparlis.helper.HtmlDownloader;
+import de.openparlis.helper.HtmlParser;
+import de.openparlis.helper.ParlisHelper;
 
 
 public class OpenParlisTester {

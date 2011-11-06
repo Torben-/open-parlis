@@ -1,4 +1,4 @@
-package helper;
+package de.openparlis.helper;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
