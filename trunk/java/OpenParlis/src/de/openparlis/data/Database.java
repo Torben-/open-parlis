@@ -1,4 +1,4 @@
-package data;
+package de.openparlis.data;
 import com.db4o.Db4o;
 import com.db4o.ObjectContainer;
 

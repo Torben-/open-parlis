@@ -1,3 +1,4 @@
+package de.openparlis;
 public class OpenParlis {
 
 	/**
