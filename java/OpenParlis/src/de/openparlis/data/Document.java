@@ -24,7 +24,7 @@ public class Document {
 	}
 
 	public void addRevision(DocumentRevision revision) {
-		if (!revision.Equals(getLatestRevision())) {
+		if (!revision.equals(getLatestRevision())) {
 			this.revisions.add(revision);
 		}
 	}

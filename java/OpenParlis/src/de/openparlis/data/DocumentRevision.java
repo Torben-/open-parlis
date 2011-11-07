@@ -23,7 +23,8 @@ public class DocumentRevision {
 		return s;
 	}
 	
-	public boolean Equals(DocumentRevision revision) {
+	@Override
+	public boolean equals(Object revision) {
 		// TODO
 		return false;
 	}
