@@ -1,6 +1,7 @@
 package de.openparlis.data;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 public class Document {
 	
@@ -32,6 +33,54 @@ public class Document {
 		try {
 			// TODO optimize
 			return revisions.get(revisions.size()-1);
+		} catch (Exception ex) {
+			return null;
+		}
+	}
+	
+	public String getHtml() {
+		try {
+			return getLatestRevision().getHtml();
+		} catch (Exception ex) {
+			return null;
+		}
+	}
+	
+	public String getSubject() {
+		try {
+			return getLatestRevision().getSubject();
+		} catch (Exception ex) {
+			return null;
+		}
+	}
+	
+	public String getContent() {
+		try {
+			return getLatestRevision().getContent();
+		} catch (Exception ex) {
+			return null;
+		}
+	}
+	
+	public Date getDocumentDate() {
+		try {
+			return getLatestRevision().getDocumentDate();
+		} catch (Exception ex) {
+			return null;
+		}
+	}
+	
+	public Date getFoundDate() {
+		try {
+			return getLatestRevision().getFoundDate();
+		} catch (Exception ex) {
+			return null;
+		}
+	}
+	
+	public Date getUpdateDate() {
+		try {
+			return getLatestRevision().getUpdateDate();
 		} catch (Exception ex) {
 			return null;
 		}
