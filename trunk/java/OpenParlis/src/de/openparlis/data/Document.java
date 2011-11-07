@@ -23,11 +23,18 @@ public class Document {
 	}
 
 	public void addRevision(DocumentRevision revision) {
-		this.revisions.add(revision);
+		if (!revision.Equals(getLatestRevision())) {
+			this.revisions.add(revision);
+		}
 	}
 	
-	public DocumentRevision getLastRevision() {
-		return revisions.get(revisions.size()-1);
+	public DocumentRevision getLatestRevision() {
+		try {
+			// TODO optimize
+			return revisions.get(revisions.size()-1);
+		} catch (Exception ex) {
+			return null;
+		}
 	}
 	
 	public String toString() {

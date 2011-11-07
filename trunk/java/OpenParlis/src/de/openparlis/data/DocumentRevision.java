@@ -23,6 +23,11 @@ public class DocumentRevision {
 		return s;
 	}
 	
+	public boolean Equals(DocumentRevision revision) {
+		// TODO
+		return false;
+	}
+	
 	//=====================================================================
 	// Getters and Setters BEGIN
 	//=====================================================================
