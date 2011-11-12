@@ -21,7 +21,7 @@ public class ParlisHelper {
 			return null;
 		}
 	}
-	
+
 	static public URL createParlisDocListUrl(int page) {
 		try {
 			int pageNum = (PARLIS_DOCS_PER_PAGE * page) + 1;
@@ -33,4 +33,8 @@ public class ParlisHelper {
 		}
 	}
 	
+	static public URL createParlisDocListUrl() {
+		return createParlisDocListUrl(0);
+	}
+		
 }
