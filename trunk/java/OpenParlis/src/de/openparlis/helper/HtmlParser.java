@@ -3,9 +3,11 @@ package de.openparlis.helper;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.regex.*;
 
+import de.openparlis.data.DocumentId;
 import de.openparlis.data.DocumentRevision;
 
 public class HtmlParser {
@@ -72,6 +74,20 @@ public class HtmlParser {
 	}
 
 	private static String parseContent(String html) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private static ArrayList<DocumentId> parseDocumentIds(String html) {
+		// EXAMPLE: 
+		// ...var link_download = 'NR_129_2011';
+
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private static DocumentId parseDocumentId(String documentIdString) {
+		
 		// TODO Auto-generated method stub
 		return null;
 	}
