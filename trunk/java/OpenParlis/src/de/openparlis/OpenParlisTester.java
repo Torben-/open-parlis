@@ -29,7 +29,7 @@ public class OpenParlisTester {
 		docId = new DocumentId(DocumentType.M, 32, 2011);
 		//docId = new DocumentId(DocumentType.OF, 66, 9, 2011);
 		
-		URL url = ParlisHelper.createParlisUrl(docId);
+		URL url = ParlisHelper.createParlisDocumentUrl(docId);
 		html = HtmlDownloader.getHtml(url);
 		
 	}
